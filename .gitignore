@@ -20,6 +20,7 @@ test-results/
 /Assets/AssetStoreTools*
 /UnityPackageManager/
 /Assets/Cinemachine/
+/Assets/Standard\ Assets/
 /PostProcessing/
 
 # Visual Studio 2015 cache directory
