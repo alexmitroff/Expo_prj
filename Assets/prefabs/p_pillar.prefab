@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33178149074057802}
   - component: {fileID: 23645663413371872}
   - component: {fileID: 95323392798297634}
-  - component: {fileID: 136388478185960312}
+  - component: {fileID: 136289849336561010}
   m_Layer: 0
   m_Name: p_pillar
   m_TagString: Untagged
@@ -57,7 +57,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 9176083f5db328547b76224181213b27, type: 2}
+  - {fileID: 2100000, guid: 408d875d282894e428055b595f3a5de0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -83,7 +83,7 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1033696027129468}
-  m_Mesh: {fileID: 4300000, guid: efe9c3d84dbd1c041b925bedcd6964c0, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 837cd925a73c283459401b6fa011da7f, type: 3}
 --- !u!95 &95323392798297634
 Animator:
   serializedVersion: 3
@@ -92,7 +92,7 @@ Animator:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1033696027129468}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: efe9c3d84dbd1c041b925bedcd6964c0, type: 3}
+  m_Avatar: {fileID: 9000000, guid: 837cd925a73c283459401b6fa011da7f, type: 3}
   m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
@@ -101,7 +101,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!136 &136388478185960312
+--- !u!136 &136289849336561010
 CapsuleCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
