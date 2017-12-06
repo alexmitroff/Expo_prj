@@ -22,7 +22,6 @@ GameObject:
   - component: {fileID: 33815435992512360}
   - component: {fileID: 23575677534357190}
   - component: {fileID: 95513395046012750}
-  - component: {fileID: 65602898863031036}
   m_Layer: 0
   m_Name: p_wall_window
   m_TagString: Untagged
@@ -37,7 +36,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1172587733809134}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -6.604492, y: 0, z: -7.0156784}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -57,7 +56,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: b6c02964083296f4aa3e989b3c9c6ed0, type: 2}
+  - {fileID: 2100000, guid: 4441b9521ddc7b74da1af4d145ec9332, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -83,19 +82,7 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1172587733809134}
-  m_Mesh: {fileID: 4300000, guid: 60ce8b6f5e838c54b85e726e9211d81a, type: 3}
---- !u!65 &65602898863031036
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1172587733809134}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 8.158712, y: 0.51479685, z: 7.4655466}
-  m_Center: {x: 0.04510641, y: -0.0000005364419, z: 3.7327733}
+  m_Mesh: {fileID: 4300000, guid: dd963ec8215e33d4a9af308b59fe13cb, type: 3}
 --- !u!95 &95513395046012750
 Animator:
   serializedVersion: 3
@@ -104,7 +91,7 @@ Animator:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1172587733809134}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 60ce8b6f5e838c54b85e726e9211d81a, type: 3}
+  m_Avatar: {fileID: 9000000, guid: dd963ec8215e33d4a9af308b59fe13cb, type: 3}
   m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
