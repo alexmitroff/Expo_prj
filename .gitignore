@@ -5,6 +5,7 @@
 #User Specific
 *.userprefs
 *.usertasks
+*.painter_lock
 
 #Mono Project Files
 *.pidb
